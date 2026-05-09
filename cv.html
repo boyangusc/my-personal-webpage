@@ -1,4 +1,45 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CV | Bo Yang</title><link rel="stylesheet" href="assets/styles.css"></head><body>
-<header class="site-header"><div class="nav-wrap"><a class="brand" href="index.html">Bo Yang</a><nav class="nav-links"><a href="index.html">Home</a><a href="research.html">Research</a><a href="data.html">Data</a><a href="teaching.html">Teaching</a><a href="community.html">Community</a><a href="opportunities.html">Opportunities</a><a class="active" href="cv.html">CV</a></nav></div></header>
-<main><section class="page-title"><div class="eyebrow">CV</div><h1>Curriculum vitae</h1><p class="lede">Upload your current CV as <code>assets/Bo_Yang_CV.pdf</code>, then the button below will work automatically.</p></section><article class="card"><h2>Bo Yang CV</h2><p>For now, this template includes a placeholder CV link. Replace the file in the assets folder with your latest PDF.</p><div class="btn-row"><a class="btn primary" href="assets/Bo_Yang_CV.pdf">Download CV</a><a class="btn" href="mailto:hiyangbo@hku.hk">Request CV by email</a></div></article></main>
-<footer class="footer"><div class="footer-inner"><span>© <span id="year"></span> Bo Yang</span><span><a href="mailto:hiyangbo@hku.hk">hiyangbo@hku.hk</a></span></div></footer><script>document.getElementById('year').textContent = new Date().getFullYear();</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV | Bo Yang</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">Bo Yang</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="data.html">Data</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="community.html">Community</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a class="active" href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <div class="btn-row">
+        <a class="btn primary" href="assets/Bo_Yang_CV.pdf" download>Download CV</a>
+      </div>
+    </section>
+
+    <section style="padding: 2rem 0;">
+      <iframe src="assets/Bo_Yang_CV.pdf" style="width:100%; height:800px; border:none;"></iframe>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© <span id="year"></span> Bo Yang</span>
+      <span><a href="mailto:hiyangbo@hku.hk">hiyangbo@hku.hk</a></span>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
