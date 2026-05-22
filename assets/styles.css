@@ -149,6 +149,7 @@ h3 { font-size: 1.22rem; letter-spacing: -0.01em; }
 }
 
 .paper-title { font-size: 1.12rem; font-weight: 800; margin-bottom: 4px; }
+.coauthor { font-size: 1rem; font-weight: 400; }
 .journal { color: var(--muted); font-style: italic; margin-bottom: 12px; }
 .paper-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; font-weight: 700; font-size: 0.92rem; }
 
@@ -171,6 +172,21 @@ ul.clean li { margin: 8px 0; }
 }
 
 .page-title { padding: 24px 0 20px; border-bottom: 1px solid var(--line); margin-bottom: 36px; }
+
+.pub-list { list-style: decimal; padding-left: 1.5rem; margin: 0; }
+
+.teach-heading { font-size: 1.2rem; margin-bottom: 4px; }
+.teach-list { list-style: none; padding: 0; margin: 0; }
+.teach-item { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.teach-item:last-child { border-bottom: none; }
+.teach-role { font-weight: 600; margin-bottom: 4px; }
+.teach-meta { color: var(--muted); font-size: 0.95rem; }
+.pub-item { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.pub-item:last-child { border-bottom: none; }
+.pub-item .paper-title { font-size: 1.08rem; font-weight: 600; margin-bottom: 4px; }
+.pub-item details { margin-top: 8px; }
+.pub-item details summary { cursor: pointer; color: var(--ink); font-size: 1rem; }
+.pub-item details p { margin-top: 10px; color: #334155; font-size: 0.95rem; }
 .page-title h1 { font-size: clamp(2.3rem, 5vw, 4rem); }
 
 .note {
