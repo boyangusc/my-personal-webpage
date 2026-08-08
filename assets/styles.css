@@ -60,7 +60,7 @@ a:hover { text-decoration: underline; }
 .nav-links a.active, .nav-links a:hover { color: var(--accent); text-decoration: none; }
 
 main { max-width: var(--max); margin: 0 auto; padding: 54px 24px 72px; }
-.hero-header { padding-top: 42px; }
+.hero-header { padding-top: 24px; }
 .hero {
   display: grid;
   grid-template-columns: 1.45fr 0.85fr;
