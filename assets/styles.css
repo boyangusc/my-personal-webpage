@@ -162,20 +162,6 @@ h3 { font-size: 1.22rem; letter-spacing: -0.01em; }
 ul.clean { padding-left: 1.2rem; margin-top: 8px; }
 ul.clean li { margin: 8px 0; }
 
-.footer {
-  border-top: 1px solid var(--line);
-  padding: 34px 24px;
-  color: var(--muted);
-}
-.footer-inner {
-  max-width: var(--max);
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
 .page-title { padding: 24px 0 20px; border-bottom: 1px solid var(--line); margin-bottom: 36px; }
 
 .pub-list { list-style: none; padding-left: 0; margin: 0; }
